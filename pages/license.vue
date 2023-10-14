@@ -1,4 +1,4 @@
 <template lang="pug">
-div
-  NuxtPage
+.m-4
+  LicenseInfo
 </template>

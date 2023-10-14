@@ -12,7 +12,13 @@
     "lintfix": "prettier --write --list-different . && npm run lint -- --fix",
     "genlicenseinfo": "license-checker --json --customPath license-format.json --out public/license-info.json"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lintfix"
+    }
+  },
   "devDependencies": {
+    "@formkit/auto-animate": "^0.8.0",
     "@nuxt/devtools": "latest",
     "@prettier/plugin-pug": "^3.0.0",
     "@tsconfig/strictest": "^2.0.2",

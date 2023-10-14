@@ -19,4 +19,5 @@ export default defineNuxtConfig({
       hashMode: true,
     },
   },
+  modules: ["@formkit/auto-animate/nuxt"],
 });
