@@ -20,7 +20,7 @@ div
 </template>
 
 <script setup lang="ts">
-const typedLicense = (await $fetch("/license-info.json")) as {
+const typedLicense = (await $fetch("/md-anim/license-info.json")) as {
   [key: string]: {
     name: string;
     version: string;
