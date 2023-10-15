@@ -3,6 +3,8 @@ Title Animate Markdown Changes
 AnimatedMarkdown(:md="md")
 textarea.w-full(v-for="(_,index) of mds", :key="index", v-model="mds[index]")
 button(@click="add") ADD
+div For license inforamation please see
+  NuxtLink(to="/license") /license
 </template>
 <script setup lang="ts">
 const md = ref("");

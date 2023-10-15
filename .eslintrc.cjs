@@ -22,4 +22,5 @@ module.exports = {
       pug: "vue-eslint-parser-template-tokenizer-pug",
     },
   },
+  ignorePatterns: ["docs"],
 };
