@@ -19,5 +19,8 @@ export default defineNuxtConfig({
       hashMode: true,
     },
   },
+  app: {
+    cdnURL: "/md-anim/",
+  },
   modules: ["@formkit/auto-animate/nuxt"],
 });
